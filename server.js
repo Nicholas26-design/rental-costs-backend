@@ -9,10 +9,15 @@ app.use(cors());
 
 // Sample data
 const costs = [
-    { month: 'January', category: 'Utilities', amount: '$200' },
-    { month: 'January', category: 'Maintenance', amount: '$150' },
-    { month: 'February', category: 'Utilities', amount: '$180' },
-    { month: 'February', category: 'Maintenance', amount: '$120' },
+    { month: 'January', category: 'Mortgage', amount: '$2362' },
+    { month: 'January', category: 'Utilities- Natural Gas', amount: '$376' },
+    { month: 'January', category: 'Utilities- Water/Sewer', amount: '$0' },    
+    { month: 'February', category: 'Mortgage', amount: '$2362' },
+    { month: 'February', category: 'Utilities- Natural Gas', amount: '$267' },
+    { month: 'February', category: 'Utilities- Water/Sewer', amount: '$0' }, 
+    { month: 'March', category: 'Mortgage', amount: '$2362' },
+    { month: 'March', category: 'Utilities- Natural Gas', amount: '$260' },
+    { month: 'March', category: 'Utilities- Water/Sewer', amount: '$287' },
 ];
 
 // API endpoint to get costs
